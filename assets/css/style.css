@@ -226,8 +226,26 @@ html {
   .topnav.responsive a:hover {
     background-color: #ccc;
   }
+  .box2 {
+    flex-direction: column;
+    padding: 12px;
+    margin: 0px;
+    max-width: 100%;
+  }
+  .box3 {
+    flex-direction: column;
+    padding: 12px;
+    margin: 0px;
+    max-width: 100%;
+  }
+  .box2 .box2-icon {
+    text-align: center;
+  }
+  .box3 .box3-icon {
+    text-align: center;
+  }
 }
-@media only screen and (max-width: 740px) {
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
   .box2 {
     flex-direction: column;
     margin: 0px;
